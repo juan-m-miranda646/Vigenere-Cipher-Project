@@ -42,9 +42,11 @@ a specific key as a string.
 
 1. First, make sure that you have a .txt file that you can use for the program.
 The program can add new keys to the .txt file but it cannot create a file.
-A .txt file titled "Keys.txt" will be added to this Repository.
+Below is the .txt file that I used.
 
-2. When the program asks you to input the file name, make sure that you type the
+Link for .txt file ["Keys.txt"](https://github.com/juan-m-miranda646/Vigenere-Cipher-Project/blob/02f1ce0c889e138e86b23030dd09baf4ff66d9a2/src%20Folder/Keys.txt)
+
+3. When the program asks you to input the file name, make sure that you type the
 name as well as the format of the file.
 
 EXAMPLE.
