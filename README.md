@@ -1,4 +1,4 @@
-*** PROJECT INFORMATION ***
+### PROJECT INFORMATION
 
 Team: One
 
@@ -10,13 +10,13 @@ Case 3 - Vigenère cipher
 
 Date published: November 26, 2024
 
-*** PROGRAM DESCRIPTION ***
+### PROGRAM DESCRIPTION
 
 This program lets the user save and select keys from a file.
 Then using that selected key, the user has the option to type plaintext
 to encrypt it or type a ciphertext to decrypt it.
 
-*** PROGRAMMING APPROACHES ***
+### PROGRAMMING APPROACHES
 
 First, I decided to focus on the encryption and decryption functions since
 those are the main functions of the project. I used the Unit 11 lab,
@@ -38,31 +38,37 @@ member functions in the class are used to get the keys in the file into the
 vector string, add new keys to the file, close or open the file, and return
 a specific key as a string.
 
-*** Basic Instructions ***
+### Basic Instructions
 
-First, make sure that you have a .txt file that you can use for the program.
+1. First, make sure that you have a .txt file that you can use for the program.
 The program can add new keys to the .txt file but it cannot create a file.
 A .txt file titled "Keys.txt" will be added to this Repository.
 
-When the program asks you to input the file name, make sure that you type the
+2. When the program asks you to input the file name, make sure that you type the
 name as well as the format of the file.
+
 EXAMPLE.
+
 "Keys.txt", "Cipher.txt", etc.
 
-Read carefully and follow the directions that the program displays.
+3. Read carefully and follow the directions that the program displays.
 Even if you make a mistake in your input, the program has input
 validation to help you go through the menu's options. The only
 inputs that do not have input vailidation are the ones for writing
 down a new key, the plaintext, and the ciphertext.
 
-To end the program, make sure you select the option for quitting
+4. To end the program, make sure you select the option for quitting
 in the main menu.
 
-*** IMPORTANT ***
+### IMPORTANT
 
 For saving a cipher key to work properly, make sure that the next
 element in the file is already in place.
+
 EXAMPLE. (This is how it should look in the file section)
+
 1    EARN
+
 2    SECRET
+
 3    (this should be empty for the next key to be save and not be appended to the previous key)
