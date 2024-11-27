@@ -69,8 +69,4 @@ element in the file is already in place.
 
 EXAMPLE. (This is how it should look in the file section)
 
-1    EARN
-
-2    SECRET
-
-3    (this should be empty for the next key to be save and not be appended to the previous key)
+![image alt](https://github.com/juan-m-miranda646/Vigenere-Cipher-Project/blob/bb0078f146c74d75efa4e2e657bcd5c61f6d7122/src%20Folder/Keys%20file%20example%20screenshot.png)
